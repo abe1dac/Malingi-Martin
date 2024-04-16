@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact page</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header>
+      <div class="container">
+        <!-- Logo -->
+        <a href="#home" class="logo">PORTFOLIO</a>
+
+        <!-- Toggle Button -->
+        <span class="toggle" onclick="toggleMenu()"></span>
+
+        <!-- Nav Items -->
+        <nav class="menu" onclick="toggleMenu()">
+          <a href="inde.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="products.html">Products</a>
+          >
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <!-- Contact Start -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="heading">
+          <h2>Contact</h2>
+          <p>Feel free to contact me</p>
+        </div>
+
+        <div class="content grid-container">
+          <div class="contactInfo">
+            <h3>Contact Info</h3>
+            <div class="contactInfoBx">
+              <div class="box">
+                <div class="icon">
+                  <i class="fa fa-map-marker"></i>
+                </div>
+                <div class="text">
+                  <h3>Address</h3>
+                  <p>
+                    Bungoma,Kibabii University
+                    <br />
+                    Kenya,
+                    <br />
+                    50200
+                  </p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="icon">
+                  <i class="fa fa-phone"></i>
+                </div>
+                <div class="text">
+                  <h3>Phone</h3>
+                  <p>0795684118</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="icon">
+                  <i class="fa fa-envelope"></i>
+                </div>
+                <div class="text">
+                  <h3>Email</h3>
+                  <p>martin2001@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="formBx">
+            <form>
+              <h3>Message Me</h3>
+              <input type="text" placeholder="Full Name" />
+              <input type="email" placeholder="Email" />
+              <textarea placeholder="Your Message"></textarea>
+              <input type="submit" value="Send" class="btn" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact End -->
+     <script src="./js/main.js"></script>
+  </body>
+  </html>
