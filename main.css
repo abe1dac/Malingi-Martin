@@ -29,6 +29,8 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  background: black;
+  color: gold;
 }
 
 .btn {
@@ -70,6 +72,8 @@ section .heading p {
 
 header {
   position: absolute;
+  background:grey:
+  color:gold;
   top: 0;
   left: 0;
   width: 100%;
@@ -82,7 +86,7 @@ header {
 header.sticky {
   position: fixed;
   padding: 15px 20px;
-  background: var(--light);
+  background: grey;
   -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
